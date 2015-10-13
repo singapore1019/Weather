@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Box (1.2.2)
+  - HexColors (2.2.1)
+  - LBBlurredImage (0.2.2)
+  - Mantle (2.0.5):
+    - Mantle/extobjc (= 2.0.5)
+  - Mantle/extobjc (2.0.5)
+  - MJExtension (2.5.12)
+  - ReactiveCocoa (3.0.0):
+    - ReactiveCocoa/UI (= 3.0.0)
+    - Result (~> 0.4.1)
+  - ReactiveCocoa/Core (3.0.0):
+    - ReactiveCocoa/no-arc
+    - Result (~> 0.4.1)
+  - ReactiveCocoa/no-arc (3.0.0):
+    - Result (~> 0.4.1)
+  - ReactiveCocoa/UI (3.0.0):
+    - ReactiveCocoa/Core
+    - Result (~> 0.4.1)
+  - Result (0.4.4):
+    - Box (~> 1.2)
+  - TSMessages (0.9.12):
+    - HexColors (~> 2.2.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - LBBlurredImage
+  - Mantle
+  - MJExtension
+  - ReactiveCocoa
+  - TSMessages
+
+SPEC CHECKSUMS:
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  Box: a92e8aa4c099e6bc0733829665caf9e668ef53b8
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  LBBlurredImage: 700634c17922bc2d22343118e7deb6a3ca12db43
+  Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad
+  MJExtension: 5ab633484e431f777387c70b676c80f993361f1b
+  ReactiveCocoa: 5c4710e2f00f69f39a7f135d1f3ab48f8dace034
+  Result: b44f6bc8762bbffaf2c5df58f2c7d12c3496ced8
+  TSMessages: c8cc7b80f2a833af533872cd02010cac061532cc
+
+COCOAPODS: 0.35.0
